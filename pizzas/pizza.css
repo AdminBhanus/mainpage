@@ -1,0 +1,39 @@
+.container {
+	max-inline-size: 800px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+h1 {
+	margin-block-start: 50px;
+	font-size: 40px;
+}
+
+.base-options img, .topping-options img {
+	display: block;
+	inline-size: 100px;
+	block-size: 100px;
+	margin-block-end: 10px;
+	cursor: pointer;
+}
+
+#base-list li, #topping-list li {
+	display: inline-block;
+	list-style: none;
+	margin: 0 20px;
+}
+
+.canvas-container {
+	margin-block-start: 50px;
+}
+
+canvas {
+	display: block;
+	margin: 0 auto;
+	background-color: #fff;
+	border: 5px solid #000;
+	border-radius: 50%;
+	inline-size: 200px;
+	block-size: 200px;
+	opacity: 0.5;
+}
